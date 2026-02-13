@@ -39,4 +39,12 @@ const fs=require('fs');
 //         console.log("successfully created");
 // });
 // fs.appendFileSync("./a.txt",`good`);
-fs.appendFile("./a.txt","abcd",()=>{});
+// fs.appendFile("./a.txt","abcd",()=>{});
+// fs.cpSync("./a.txt","./b.txt");
+// fs.cp("./a.txt","./b.txt",()=>{});
+fs.cp("./a.txt","./b.txt",(err,)=>{
+    if(err)
+        console.log("Error",err);
+    else
+        console.log("Successful");
+});
