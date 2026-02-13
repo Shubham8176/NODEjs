@@ -21,3 +21,22 @@
 // });
 
 // myserver.listen(8000, () => console.log('server is running'));
+const fs=require('fs');
+
+//fs.writeFile("./a.txt","abes college is", ()=>{});
+// fs.readFile("./a.txt","utf-8",(err,result)=>{
+//     if(err){
+//         console.log("error",err);
+//     }
+//     else{
+//         console.log(result);
+//     }
+// });
+// fs.writeFile("./b.txt","abes enginneering college",(err,)=>{
+//     if(err)
+//         console.log("error",err);
+//     else
+//         console.log("successfully created");
+// });
+// fs.appendFileSync("./a.txt",`good`);
+fs.appendFile("./a.txt","abcd",()=>{});
