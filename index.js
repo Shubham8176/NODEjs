@@ -42,9 +42,16 @@ const fs=require('fs');
 // fs.appendFile("./a.txt","abcd",()=>{});
 // fs.cpSync("./a.txt","./b.txt");
 // fs.cp("./a.txt","./b.txt",()=>{});
-fs.cp("./a.txt","./b.txt",(err,)=>{
+// fs.cp("./a.txt","./b.txt",(err,)=>{
+//     if(err)
+//         console.log("Error",err);
+//     else
+//         console.log("Successful");
+// });
+// fs.unlinkSync("./a.txt");
+fs.unlink("./a.txt",(err,)=>{
     if(err)
         console.log("Error",err);
     else
-        console.log("Successful");
+        console.log("Successfull");
 });
