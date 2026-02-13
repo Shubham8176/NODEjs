@@ -49,9 +49,9 @@ const fs=require('fs');
 //         console.log("Successful");
 // });
 // fs.unlinkSync("./a.txt");
-fs.unlink("./a.txt",(err,)=>{
-    if(err)
-        console.log("Error",err);
-    else
-        console.log("Successfull");
-});
+// fs.unlink("./a.txt",(err,)=>{
+//     if(err)
+//         console.log("Error",err);
+//     else
+//         console.log("Successfull");
+// });
